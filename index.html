@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Pedra - Papel - Tesoura</h1>
+
+    <div id="escolhas">
+        <button onclick="jogar(`pedra`)">👊</button>
+        <button onclick="jogar(`papel`)">✋</button>
+        <button onclick="jogar(`tesoura`)">✌</button>
+    </div>
+
+    <div id="mostrarJogador">
+        
+    </div>
+
+    <div id="mostrarComputador">
+       
+    </div>
+
+    <div id="mostrarResultado">
+    </div>
+
+    <div class="mostrarPontuacao">
+        Pontuação do jogador: 
+        <span id="mostrarPontuacaoJogador">0</span> 
+    </div>
+
+    <div class="mostrarPontuacao">
+        Pontuação do computador:
+        <span id="mostrarPontuacaoComputador">0</span>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
